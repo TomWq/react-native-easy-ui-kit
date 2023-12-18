@@ -1,9 +1,19 @@
+/*
+ * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
+ * @Date         : 1985-10-26 16:15:00
+ * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
+ * @LastEditTime : 2023-12-18 15:13:04
+ * @FilePath     : /react-native-easy-ui-kit/components/EditScreenInfo.tsx
+ * @Description  : 
+ * 
+ * Copyright (c) 2023 by 尚博信_王强, All Rights Reserved. 
+ */
 import React from 'react';
 import { StyleSheet } from 'react-native';
 
 import { ExternalLink } from './ExternalLink';
 import { MonoText } from './StyledText';
-import { Text, View } from './Themed';
+import { Text, View } from '@/modules';
 
 import Colors from '@/constants/Colors';
 
@@ -13,34 +23,19 @@ export default function EditScreenInfo({ path }: { path: string }) {
       <View style={styles.getStartedContainer}>
         <Text
           style={styles.getStartedText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
+          >
           Open up the code for this screen:
         </Text>
 
         <View
-          style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
-          darkColor="rgba(255,255,255,0.05)"
-          lightColor="rgba(0,0,0,0.05)">
+          style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
           <MonoText>{path}</MonoText>
         </View>
 
         <Text
-          style={styles.getStartedText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
+          style={styles.getStartedText}>
           Change any of the text, save the file, and your app will automatically update.
         </Text>
-      </View>
-
-      <View style={styles.helpContainer}>
-        <ExternalLink
-          style={styles.helpLink}
-          href="https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet">
-          <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
-          </Text>
-        </ExternalLink>
       </View>
     </View>
   );

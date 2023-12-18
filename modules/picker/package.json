@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-picker",
+  "version": "0.0.1",
+  "description": "picker nodule",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}
