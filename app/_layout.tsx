@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 1985-10-26 16:15:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-18 17:05:37
+ * @LastEditTime : 2023-12-21 09:06:05
  * @FilePath     : /react-native-easy-ui-kit/app/_layout.tsx
  * @Description  : 
  * 
@@ -15,10 +15,11 @@ import { StatusBar } from 'expo-status-bar';
 import { Drawer } from 'expo-router/drawer';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import { Stack, router } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import {UnistylesRuntime, useInitialTheme, useStyles} from 'react-native-unistyles'
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -27,7 +28,7 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: '(tabs)',
+  initialRouteName: '(drawer)',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -63,29 +64,34 @@ function RootLayoutNav() {
 
   const {styles} = useStyles()
 
-  // useEffect(()=>{
-  //   Storage.getItem('theme').then(res=>{
-  //     if(res){
-  //       UnistylesRuntime.setTheme(res)
-  //     }
-  //   })
-  // },[])
+  useEffect(()=>{
+    // Storage.getItem('theme').then(res=>{
+    //   if(res){
+    //     UnistylesRuntime.setTheme(res)
+    //   }
+    // })
+   
+  },[])
 
   return (
-    
+    <GestureHandlerRootView style={{flex:1}}>
     <ThemeProvider value={UnistylesRuntime.themeName === 'dark' ? DarkTheme : DefaultTheme}>
       <RootSiblingParent>
-        <Drawer>
-          <Drawer.Screen name="(tabs)" options={{
-            title:'UI'
+        <Stack>
+          <Stack.Screen name="(drawer)" options={{
+            headerShown:false
+          }}/>  
+          <Stack.Screen name="image-detail" options={{
+            animation:'fade',
+            presentation:'transparentModal',
+            headerTransparent:true,
+            title:''
           }}/>
-          <Drawer.Screen name="toast" options={{
-            title:'Toast'
-          }}/>
-        </Drawer>
+        </Stack>
         </RootSiblingParent>
-      <StatusBar style={UnistylesRuntime.themeName === 'dark' ? 'light':'dark'} animated/>
-    </ThemeProvider>
+        <StatusBar style={UnistylesRuntime.themeName === 'dark' ? 'light':'dark'} animated/>
+      </ThemeProvider>
+    </GestureHandlerRootView>
     
   );
 }

@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 2023-12-18 13:58:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-18 17:26:42
+ * @LastEditTime : 2023-12-20 14:29:29
  * @FilePath     : /react-native-easy-ui-kit/modules/style/src/theme.ts
  * @Description  : 
  * 
@@ -30,7 +30,11 @@ export const lightTheme = {
       accent: sharedColors.blood,
       tint:'#2f95dc',
       buttonColor:'#2f95dc',
-      buttonLable:'#FFFFFF'
+      buttonLable:'#FFFFFF',
+      refreshColor:'#2f95dc',
+      tabBarActiveTextColor:'#2f95dc',
+      tabBarBackgroundColor:'#FFFFFF',
+      
      
   }
   // add any keys/functions/objects/arrays you want!
@@ -45,7 +49,11 @@ export const darkTheme = {
       accent: sharedColors.barbie,
       tint: '#ffffff',
       buttonColor:DarkTheme.colors.card,
-      buttonLable:'#FFFFFF'
+      buttonLable:'#FFFFFF',
+      refreshColor:'#FFFFFF',
+      tabBarActiveTextColor:'#2f95dc',
+      tabBarBackgroundColor:DarkTheme.colors.card,
+      
   }
   // add any keys/functions/objects/arrays you want!
 }

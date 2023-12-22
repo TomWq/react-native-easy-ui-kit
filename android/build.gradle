@@ -24,11 +24,12 @@ buildscript {
         maven {
             url 'https://maven.aliyun.com/repository/google/'
         }
-//        google()
+        google()
         mavenCentral()
     }
     dependencies {
         classpath('com.android.tools.build:gradle')
+
         classpath('com.facebook.react:react-native-gradle-plugin')
     }
 }
@@ -57,8 +58,8 @@ allprojects {
         maven {
             url 'https://maven.aliyun.com/repository/google/'
         }
-//        google()
+        google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
+//        maven { url 'https://www.jitpack.io' }
     }
 }

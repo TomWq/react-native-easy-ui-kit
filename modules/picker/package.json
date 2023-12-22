@@ -1,8 +1,12 @@
 {
   "name": "react-native-ui-kit-picker",
   "version": "0.0.1",
-  "description": "picker nodule",
-  "main": "src/index",
+  "description": "picker modules",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
   "author": " <> ()",
   "license": "UNLICENSED",
   "homepage": "#readme"

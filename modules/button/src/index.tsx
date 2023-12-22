@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 2023-12-18 12:48:50
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-18 18:08:01
+ * @LastEditTime : 2023-12-21 09:12:33
  * @FilePath     : /react-native-easy-ui-kit/modules/button/src/index.tsx
  * @Description  : 
  * 
@@ -12,7 +12,7 @@ import React from 'react'
 import {RectButton,BaseButtonProps,GestureHandlerRootView} from 'react-native-gesture-handler'
 import { StyleProp ,TextStyle,ViewStyle,TextProps,DimensionValue} from 'react-native'
 import { createStyleSheet,useStyles } from 'react-native-unistyles';
-import { debounce } from './debounce';
+import { debounce } from '../../utils/debounce';
 import Animated,{AnimatedProps} from 'react-native-reanimated';
 
 import FontAwesome from '@expo/vector-icons/FontAwesome';
@@ -92,7 +92,7 @@ const stylesheet = createStyleSheet(theme=>({
       alignItems:'center',
       flexDirection:'row',
       minHeight:50,
-     
+      minWidth:100
   },
   buttonTitle:{
       color:theme.colors.buttonLable,
