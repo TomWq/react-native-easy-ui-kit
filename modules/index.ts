@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 2023-12-18 13:08:45
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-21 22:45:58
+ * @LastEditTime : 2023-12-22 17:17:18
  * @FilePath     : /react-native-easy-ui-kit/modules/index.ts
  * @Description  : 
  * 
@@ -29,4 +29,7 @@ export {DefaultTabBar, ScrollableTabBar} from './scrollable-tab-view'
 export {type TabBarProps, type ScrollableTabViewProperties,type ChangeTabProperties,type TabProps} from './scrollable-tab-view'
 export {default as Image} from './image';
 export {ScreenWidth, ScreenHeight, PixelWidth } from './utils/dimensions'
-export {ShowTimePicker,ShowNormalPicker,ShowCityPicker,ShowLinkagePicker,multiply} from './picker'
+export {ShowTimePicker,ShowNormalPicker,ShowCityPicker,ShowLinkagePicker} from './picker'
+export {default as Switch} from './switch'
+export {default as CheckBox} from './checkbox'
+export {default as Modal} from './modal'

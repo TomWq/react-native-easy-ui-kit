@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-text",
+  "version": "0.0.1",
+  "description": "text module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

@@ -1,5 +1,17 @@
 PODS:
   - boost (1.83.0)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
   - DoubleConversion (1.1.6)
   - EXConstants (15.4.1):
     - ExpoModulesCore
@@ -936,7 +948,12 @@ PODS:
     - React-Core
   - react-native-safe-area-context (4.8.1):
     - React-Core
+  - react-native-theme-switch-animation (0.6.0):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - react-native-ui-kit-picker (0.0.1):
+    - BRPickerView (~> 2.8.1)
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1193,6 +1210,7 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - react-native-pager-view (from `../node_modules/react-native-pager-view`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-theme-switch-animation (from `../node_modules/react-native-theme-switch-animation`)
   - react-native-ui-kit-picker (from `../node_modules/react-native-ui-kit-picker`)
   - react-native-unistyles (from `../node_modules/react-native-unistyles`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
@@ -1228,6 +1246,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BRPickerView
     - fmt
     - libevent
     - libwebp
@@ -1318,6 +1337,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-pager-view"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-theme-switch-animation:
+    :path: "../node_modules/react-native-theme-switch-animation"
   react-native-ui-kit-picker:
     :path: "../node_modules/react-native-ui-kit-picker"
   react-native-unistyles:
@@ -1385,6 +1406,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 26fad476bfa736552bbfa698a06cc530475c1505
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   EXConstants: 86bbc9fedbb67770c0c6bb37f22f81970ef45dc8
   EXFont: 9ae7e8e2e4825cef04a45dca74512a3f711e2fe9
@@ -1428,7 +1450,8 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 58fe558faf52ecde6705376700f848d0293d1cef
   react-native-pager-view: d81ab2060b9caf57ca8c3a0d57467ff407cdb825
   react-native-safe-area-context: cd1169d797a2ef722a00bfc5af10748d5b6c94f9
-  react-native-ui-kit-picker: 0d36c7836a90397556657e500b9db333b6d659bc
+  react-native-theme-switch-animation: 1ee13c8b3657b54406722e4f14aa47ed215db4e2
+  react-native-ui-kit-picker: 37b9641f69b90121b66a99f3b00c8453cd46970e
   react-native-unistyles: 26c7e34f8fb40cfb7fccb3d328c20607271c2da7
   React-nativeconfig: a063483672b8add47a4875b0281e202908ff6747
   React-NativeModulesApple: 169506a5fd708ab22811f76ee06a976595c367a1

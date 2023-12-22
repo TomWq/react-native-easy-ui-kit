@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-activityindicator",
+  "version": "0.0.1",
+  "description": "ActivityIndicator module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

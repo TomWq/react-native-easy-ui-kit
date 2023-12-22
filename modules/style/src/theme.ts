@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 2023-12-18 13:58:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-20 14:29:29
+ * @LastEditTime : 2023-12-22 16:00:12
  * @FilePath     : /react-native-easy-ui-kit/modules/style/src/theme.ts
  * @Description  : 
  * 
@@ -34,7 +34,8 @@ export const lightTheme = {
       refreshColor:'#2f95dc',
       tabBarActiveTextColor:'#2f95dc',
       tabBarBackgroundColor:'#FFFFFF',
-      
+      swichBg:'#2f95dc',
+      swichThumb:'#FFFFFF'
      
   }
   // add any keys/functions/objects/arrays you want!
@@ -53,6 +54,8 @@ export const darkTheme = {
       refreshColor:'#FFFFFF',
       tabBarActiveTextColor:'#2f95dc',
       tabBarBackgroundColor:DarkTheme.colors.card,
+      swichBg:'#2f95dc',
+      swichThumb:'#FFFFFF'
       
   }
   // add any keys/functions/objects/arrays you want!

@@ -1,0 +1,12 @@
+{
+  "name": "react-native-ui-kit-scrollable-tab-view",
+  "version": "0.0.1",
+  "description": "scrollable-tab-view ",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "dependencies": {
+    "react-native-pager-view": "*"
+  }
+}

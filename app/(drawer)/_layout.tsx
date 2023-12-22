@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 1985-10-26 16:15:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-20 16:06:42
+ * @LastEditTime : 2023-12-22 15:29:17
  * @FilePath     : /react-native-easy-ui-kit/app/(drawer)/_layout.tsx
  * @Description  : 
  * 
@@ -40,6 +40,12 @@ export default function RootLayoutNav() {
           }}/>
            <Drawer.Screen name="picker" options={{
             title:'PickerView'
+          }}/>
+           <Drawer.Screen name="swich" options={{
+            title:'SwichView'
+          }}/>
+          <Drawer.Screen name="checkBox" options={{
+            title:'CheckBoxView'
           }}/>
         </Drawer>
        

@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-dialog",
+  "version": "0.0.1",
+  "description": "dialog module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

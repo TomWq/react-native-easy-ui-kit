@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-toast",
+  "version": "0.0.1",
+  "description": "toast module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

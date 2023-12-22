@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-flashlist",
+  "version": "0.0.1",
+  "description": "flashlist module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

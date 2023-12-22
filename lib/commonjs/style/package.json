@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-style",
+  "version": "0.0.1",
+  "description": "style module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

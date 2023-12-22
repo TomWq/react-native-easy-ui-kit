@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-view",
+  "version": "0.0.1",
+  "description": "view module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

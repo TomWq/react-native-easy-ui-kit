@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-image",
+  "version": "0.0.1",
+  "description": "image module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

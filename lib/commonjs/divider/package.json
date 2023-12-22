@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-divider",
+  "version": "0.0.1",
+  "description": "Divider module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-storage",
+  "version": "0.0.1",
+  "description": "storage module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

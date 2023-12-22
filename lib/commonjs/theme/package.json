@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-theme",
+  "version": "0.0.1",
+  "description": "theme module",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

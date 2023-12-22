@@ -1,3 +1,13 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
+import View from '../../view'
+import Text from '../../text'
+
+function ModalView() {
+
+  return (
+    <View>
+      <Text>ModalView</Text>
+    </View>
+  )
 }
+
+export default ModalView
