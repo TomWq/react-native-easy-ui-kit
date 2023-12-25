@@ -19,6 +19,8 @@ PODS:
     - ExpoModulesCore
   - Expo (50.0.0-preview.4):
     - ExpoModulesCore
+  - ExpoBlur (12.6.0):
+    - ExpoModulesCore
   - ExpoFileSystem (16.0.1):
     - ExpoModulesCore
   - ExpoHead (3.4.0):
@@ -1172,6 +1174,7 @@ DEPENDENCIES:
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
   - Expo (from `../node_modules/expo`)
+  - ExpoBlur (from `../node_modules/expo-blur/ios`)
   - ExpoFileSystem (from `../node_modules/expo-file-system/ios`)
   - ExpoHead (from `../node_modules/expo-router/ios`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
@@ -1266,6 +1269,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font/ios"
   Expo:
     :path: "../node_modules/expo"
+  ExpoBlur:
+    :path: "../node_modules/expo-blur/ios"
   ExpoFileSystem:
     :path: "../node_modules/expo-file-system/ios"
   ExpoHead:
@@ -1411,6 +1416,7 @@ SPEC CHECKSUMS:
   EXConstants: 86bbc9fedbb67770c0c6bb37f22f81970ef45dc8
   EXFont: 9ae7e8e2e4825cef04a45dca74512a3f711e2fe9
   Expo: 00eaae3d5de1f2e9af393abf1b2c9efb57b3b599
+  ExpoBlur: 9e6da7c2bd4a0c5de7e57124694d0a380d7962f7
   ExpoFileSystem: ebbbe77366bff2e66876e3b3bf09e61d3bb72c70
   ExpoHead: 573e78cb221b5461376d0cc88ee0611337c3c3cb
   ExpoKeepAwake: ed71bfe0e6ecd38e337586ba6e1ba27a56eb373b

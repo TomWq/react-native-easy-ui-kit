@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 2023-12-18 12:47:40
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-18 18:18:43
+ * @LastEditTime : 2023-12-22 19:09:00
  * @FilePath     : /react-native-easy-ui-kit/modules/toast/src/index.tsx
  * @Description  : 
  * 
@@ -16,7 +16,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, { runOnJS, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import RootSiblings from 'react-native-root-siblings';
 import { FullWindowOverlay } from 'react-native-screens';
-import { createStyleSheet, useStyles,mq } from 'react-native-unistyles';
+import { createStyleSheet, useStyles } from 'react-native-unistyles';
 
 type ToastViewProps = {
     text?:string,

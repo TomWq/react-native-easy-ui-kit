@@ -1,0 +1,9 @@
+{
+  "name": "react-native-ui-kit-bottom-sheet",
+  "version": "0.0.0",
+  "description": "bottom-sheet modules",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme"
+}

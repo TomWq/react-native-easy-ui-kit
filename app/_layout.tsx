@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 1985-10-26 16:15:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-21 09:06:05
+ * @LastEditTime : 2023-12-25 10:30:36
  * @FilePath     : /react-native-easy-ui-kit/app/_layout.tsx
  * @Description  : 
  * 
@@ -20,6 +20,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import {UnistylesRuntime, useInitialTheme, useStyles} from 'react-native-unistyles'
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import {ModalProvider} from '@/modules'
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -75,6 +76,7 @@ function RootLayoutNav() {
 
   return (
     <GestureHandlerRootView style={{flex:1}}>
+      <ModalProvider>
     <ThemeProvider value={UnistylesRuntime.themeName === 'dark' ? DarkTheme : DefaultTheme}>
       <RootSiblingParent>
         <Stack>
@@ -91,6 +93,7 @@ function RootLayoutNav() {
         </RootSiblingParent>
         <StatusBar style={UnistylesRuntime.themeName === 'dark' ? 'light':'dark'} animated/>
       </ThemeProvider>
+      </ModalProvider>
     </GestureHandlerRootView>
     
   );

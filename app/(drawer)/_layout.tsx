@@ -2,7 +2,7 @@
  * @Author       : 尚博信_王强 wangqiang03@sunboxsoft.com
  * @Date         : 1985-10-26 16:15:00
  * @LastEditors  : 尚博信_王强 wangqiang03@sunboxsoft.com
- * @LastEditTime : 2023-12-22 15:29:17
+ * @LastEditTime : 2023-12-25 10:41:05
  * @FilePath     : /react-native-easy-ui-kit/app/(drawer)/_layout.tsx
  * @Description  : 
  * 
@@ -47,6 +47,13 @@ export default function RootLayoutNav() {
           <Drawer.Screen name="checkBox" options={{
             title:'CheckBoxView'
           }}/>
+          <Drawer.Screen name="bottomSheet" options={{
+            title:'BottomSheet'
+          }}/>
+          <Drawer.Screen name="modal" options={{
+            title:'Modal'
+          }}/>
+         
         </Drawer>
        
     
