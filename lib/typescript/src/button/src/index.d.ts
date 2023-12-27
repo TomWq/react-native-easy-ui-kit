@@ -12,10 +12,8 @@ type ButtonProps = BaseButtonProps & AnimatedProps<object> & {
     debounceDelay?: number;
     borderRadius?: number;
     isShadow?: boolean;
-    lightColor?: string;
-    darkColor?: string;
     icon?: React.ComponentProps<typeof FontAwesome>['name'];
 };
-export default function Button({ onPress, label, style, labelStyle, textProps, debounceDelay, borderRadius, isShadow, icon, lightColor, darkColor, ...otherProps }: ButtonProps): JSX.Element;
+export default function Button({ onPress, label, style, labelStyle, textProps, debounceDelay, borderRadius, isShadow, icon, ...otherProps }: ButtonProps): JSX.Element;
 export {};
 //# sourceMappingURL=index.d.ts.map
