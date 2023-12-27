@@ -6,16 +6,18 @@ This is a simple ui suite library
 
 ```sh
 npm install react-native-easy-ui-kit
+or
+yarn add react-native-easy-ui-kit
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-easy-ui-kit';
+import { Button, Card } from 'react-native-easy-ui-kit';
 
 // ...
 
-const result = await multiply(3, 7);
+
 ```
 
 ## Contributing
